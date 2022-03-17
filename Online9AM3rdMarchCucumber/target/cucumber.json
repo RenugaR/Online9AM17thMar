@@ -1,0 +1,182 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 286100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launch the browser",
+            "match": {
+              "location": "FacebookPageSteps.user_launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1443262200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters the url",
+            "match": {
+              "location": "FacebookPageSteps.user_enters_the_url()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6202903600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "To validate FB page login function with invalid credentials",
+        "description": "",
+        "id": "facebook-page-login-funtionality;to-validate-fb-page-login-function-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 333004700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 349550600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters the username and password",
+            "match": {
+              "location": "FacebookPageSteps.user_enters_the_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "UserName",
+                  "Password"
+                ]
+              },
+              {
+                "cells": [
+                  "Raja",
+                  "4567890"
+                ]
+              },
+              {
+                "cells": [
+                  "Karthik",
+                  "4356789"
+                ]
+              },
+              {
+                "cells": [
+                  "Siva",
+                  "45678"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92997500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks the login button",
+            "match": {
+              "location": "FacebookPageSteps.user_clicks_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14178745000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User navigates to login failure page",
+            "match": {
+              "location": "FacebookPageSteps.user_navigates_to_login_failure_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LogIn"
+          },
+          {
+            "name": "@P1"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@TC01"
+          },
+          {
+            "name": "@TC01_Login"
+          }
+        ]
+      }
+    ],
+    "name": "Facebook page login funtionality",
+    "description": "",
+    "id": "facebook-page-login-funtionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Regression/FacebookPage.feature",
+    "tags": [
+      {
+        "name": "@LogIn",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@P1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 8
+        }
+      },
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 12
+        }
+      }
+    ]
+  }
+]
