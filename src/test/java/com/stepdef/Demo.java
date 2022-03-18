@@ -19,7 +19,7 @@ public class Demo {
 		mp1.put("email", "Karthik23@gmail.com");
 
 		li.add(mp);
-		li.add(mp1);
+		li.add(mp);
 
 		Map<String, String> m = li.get(0);
 		String string = m.get("Name");
