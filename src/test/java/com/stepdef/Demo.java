@@ -23,6 +23,7 @@ public class Demo {
 		System.out.println(a);
 		System.out.println(b);
 		System.out.println(c);
+		System.out.println("Added a variable d");
 		Map<String, String> mp1 = new LinkedHashMap<String, String>();
 		mp1.put("Name", "Karthik");
 		mp1.put("email", "Karthik23@gmail.com");
