@@ -13,7 +13,7 @@ public class Demo {
 		Map<String, String> mp = new LinkedHashMap<String, String>();
 		System.out.println("Hello");
 		System.out.println("Heelo");
-		System.out.println("Hello");\
+		System.out.println("Hello");
 		System.out.println("Hello");
 		mp.put("Name", "raja");
 		mp.put("email", "Raja12@gmail.com");
