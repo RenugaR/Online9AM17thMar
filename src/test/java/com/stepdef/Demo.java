@@ -11,12 +11,18 @@ public class Demo {
 		List<Map<String, String>> li = new ArrayList<Map<String, String>>();
 
 		Map<String, String> mp = new LinkedHashMap<String, String>();
+		System.out.println("Hello");
+		System.out.println("Heelo");
+		System.out.println("Hello");
+		System.out.println("Hello");
 		mp.put("Name", "raja");
 		mp.put("email", "Raja12@gmail.com");
-		System.out.println("Hello");
-		System.out.println("Hello");
-		System.out.println("Hello");
-		System.out.println("Hello");
+		int a = 10;
+		int b = 23;
+		int c = 30;
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
 		Map<String, String> mp1 = new LinkedHashMap<String, String>();
 		mp1.put("Name", "Karthik");
 		mp1.put("email", "Karthik23@gmail.com");
