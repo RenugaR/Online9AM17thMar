@@ -57,6 +57,10 @@ public class LibGlobal {
 	public static void quitBrowser() {
 		driver.quit();
 	}
+	public static void getHemalatha(String url) {
+		driver.get(url);
+	}
+
 
 	public static String getData(int row, int cell) throws IOException {
 		File loc = new File("C:\\Users\\god\\eclipse-workspace\\Online9AM3rdMarchCucumber\\input\\Data.xlsx");
